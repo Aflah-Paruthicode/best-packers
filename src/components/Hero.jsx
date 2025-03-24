@@ -10,7 +10,7 @@ const Hero = () => {
 
   return (
     <section id='Home' class="relative w-full h-screen font-poppins flex items-center justify-center text-center">
-  <div class="absolute inset-0 bg-[url('/hero.jpg')]  bg-cover bg-center bg-no-repeat">
+  <div class="absolute inset-0 bg-[url('/hero.webp')]  bg-cover bg-center bg-no-repeat">
     <div class="absolute inset-0 bg-black/60"></div>  
   </div>
 

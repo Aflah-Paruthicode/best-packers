@@ -11,7 +11,7 @@ const VideoSection = () => {
         {/* Video Wrapper for Portrait Video */}
         <div className="relative w-[300px] md:w-[350px] h-auto overflow-hidden rounded-xl shadow-lg border border-gray-300">
           <video controls muted className="w-full h-auto rounded-xl">
-            <source src="/packed-items.mp4" type="video/mp4" />
+            <source src="/packed-items.webm" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

@@ -1,7 +1,7 @@
 
 import { motion } from 'framer-motion'
 
-import logo from '/icon-Photoroom.png'
+import logo from '/icon-Photoroom.webp'
 import { Menu , X } from "lucide-react"
 import { useState } from 'react'
 

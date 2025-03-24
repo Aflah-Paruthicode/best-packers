@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 
 const customIcon = new L.Icon({
-  iconUrl: "/location.png", 
+  iconUrl: "/location.webp", 
   iconSize: [50, 50], 
   iconAnchor: [25, 50], 
   popupAnchor: [0, -50], 
