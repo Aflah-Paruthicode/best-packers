@@ -1,5 +1,7 @@
 
 import cardData from "../Card/cardData"
+import React, { memo } from "react"; 
+
 
 const Services = () => {
   return (
@@ -15,7 +17,7 @@ const Services = () => {
 
 export default Services
 
-const Cards = () => {
+const Cards = memo(() => {
 
   let services = cardData
 
@@ -32,10 +34,9 @@ const Cards = () => {
       <p className=" absolute z-10 top-3 right-3 opacity-80 text-center"><i class="fa-solid fa-truck text-2xl text-white animate-pulse"></i></p>
 
         <img 
-          className="h-60 w-80 rounded-[5px] object-cover will-change-transform"
+          className="h-60 w-80 rounded-[5px] object-cover will-change-opacity"
           src={service.img}
           alt={service.alt}
-          loading="lazy" 
         />
 
         <div className="absolute bottom-2 text-start bg-[#1e1e1ea8] text-white backdrop-blur-[2px] p-2 mx-2 rounded-xl">
@@ -50,4 +51,4 @@ const Cards = () => {
 
 
   )
-}
+})
