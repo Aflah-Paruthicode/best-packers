@@ -13,7 +13,7 @@ function App() {
   return (
     <main>
       <section>
-        <Navbar />
+        <Navbar  />
       </section>
       <section>
         <Hero />
