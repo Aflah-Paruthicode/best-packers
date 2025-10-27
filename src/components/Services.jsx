@@ -19,7 +19,7 @@ export default Services
 
 const Cards = memo(() => {
 
-  let services = cardData
+  let services = cardData 
 
   return (
 
